@@ -1,0 +1,45 @@
+{
+  "id": 1,
+  "home": {
+    "id": 15,
+    "name": "FC Riva",
+    "logo": "fcriva.jpg",
+    "category": 3
+  },
+  "guest": {
+    "id": 15,
+    "name": "FC Riva",
+    "logo": "fcriva.jpg",
+    "category": 3
+  },
+  "date": "19/04/2020",
+  "place": "Riva San Vitale",
+  "matchOfSeason": 5,
+  "postponed": false,
+  "goalHome": 0,
+  "goalGuest": 2,
+  "scorers": [
+    {
+      "id": 1,
+      "name": "Ivan",
+      "lastName": "Pavic",
+      "realTeam": {
+        "id": 15,
+        "name": "FC Riva",
+        "logo": "fcriva.jpg",
+        "category": 3
+      },
+      "position": "A",
+      "vote": {
+        "id": 1,
+        "base": 3,
+        "bonus": 3,
+        "malus": 1,
+        "fan": 2,
+        "finalVote": 8
+      },
+      "value": 12
+    }
+  ],
+  "category": 3
+}
