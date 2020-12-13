@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { AccountComponent } from './page/account/account.component';
 import { ClassificaComponent } from './page/classifica/classifica.component';
 import { ErrorComponent } from './page/error/error.component';
 import { FormazioneComponent } from './page/formazione/formazione.component';
@@ -9,11 +10,13 @@ import { RegolamentoComponent } from './page/regolamento/regolamento.component';
 
 
 const routes: Routes = [
+  {path: '', component: HomeComponent},
   {path: 'home', component: HomeComponent},
   {path: 'formazione', component: FormazioneComponent},
   {path: 'live', component: LiveComponent},
   {path: 'classifica', component: ClassificaComponent},
   {path: 'regolamento', component: RegolamentoComponent},
+  {path: 'account', component: AccountComponent},
   {path: '**', component: ErrorComponent}
 ];
 

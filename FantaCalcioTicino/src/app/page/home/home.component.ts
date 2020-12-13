@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MatchService } from 'src/app/service/match.service';
 
 @Component({
   selector: 'fct-home',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  matches$: Object;
+
+  constructor(private matchService: MatchService) { }
 
   ngOnInit(): void {
+    console.log("MATCHES: " + this.matchService.getMatches().subscribe((matches) => this.matches$ = matches, (error) => console.log("getMatches() fail")));
   }
 
 }

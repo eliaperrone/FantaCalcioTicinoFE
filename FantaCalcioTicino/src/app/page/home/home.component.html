@@ -1,1 +1,28 @@
-<h1>HOME</h1>
+<!--<div id="container" *ngFor="let match of matches$">
+        <h1>{{match.home.name}}</h1>
+</div>-->
+
+<h2 class="title">LE PARTITE DELLA PROSSIMA GIORNATA</h2>
+
+<div *ngFor="let match of matches$">
+    <div class="container">
+        <div class="row match-info">
+            <div class="col">
+                <h3>{{match.date}} <span class="divider">|</span>{{match.place}}</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img class="team-logo" src="/assets/img/team/{{match.home.logo}}">
+                <h4>{{match.home.name}}</h4>
+            </div>
+            <div class="col vs">
+                <h4>VS</h4>
+            </div>
+            <div class="col">
+                <img class="team-logo" src="/assets/img/team/{{match.guest.logo}}">
+                <h4>{{match.guest.name}}</h4>
+            </div>
+        </div>
+    </div>
+</div>

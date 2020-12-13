@@ -11,6 +11,9 @@ import { FormazioneComponent } from './page/formazione/formazione.component';
 import { LiveComponent } from './page/live/live.component';
 import { ClassificaComponent } from './page/classifica/classifica.component';
 import { RegolamentoComponent } from './page/regolamento/regolamento.component';
+import { AccountComponent } from './page/account/account.component';
+
+import { HttpClientModule } from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -22,11 +25,13 @@ import { RegolamentoComponent } from './page/regolamento/regolamento.component';
     FormazioneComponent,
     LiveComponent,
     ClassificaComponent,
-    RegolamentoComponent
+    RegolamentoComponent,
+    AccountComponent
     ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
