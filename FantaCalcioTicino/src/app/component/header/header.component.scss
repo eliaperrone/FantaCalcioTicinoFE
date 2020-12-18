@@ -1,15 +1,17 @@
 .navbar {
-    background-color: rgb(186, 31, 35);
-    margin-bottom: 2%;
+    background-color: black;
+    text-align: center;
 }
 
-.navbar-nav {
-    text-align: left;
+.navbar-collapse {
+    justify-content: center;
 }
 
 .nav-item {
     color: #fff;
     font-size: 18px;
+    border-radius: 8px;
+    margin: 0 20px 0 0;
 }
 
 .nav-link {
@@ -18,17 +20,31 @@
 }
 
 .nav-item:hover {
-    text-decoration: underline;
+    background-color: #fff;
+    color: black;
+}
+
+.nav-link {
+    border-radius: 8px;
 }
 
 .nav-link:hover {
-    text-decoration: underline;
+    background-color: #fff;
+    color: black;
 }
 
-.laborsport-logo {
-    width: 15%;
+@media screen and (min-width: 375px) {
+
 }
 
-.user-logo {
-    width: 10%;
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
 }

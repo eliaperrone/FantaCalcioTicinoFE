@@ -1,26 +1,73 @@
+.main-container {
+    background-image: url("/assets/img/background/home.png");
+    background-attachment: fixed;
+    padding: 16px;
+}
+
+/* CAROUSEL */
+.carousel {
+    margin: 0 2%;
+}
+
+.carousel .carousel-item {
+    height: 150px;
+    text-align: center;
+}
+
+.carousel .carousel-item img {
+    width: 200px;
+}
+
+/* CSS */
+.subtitle {
+    text-align: center;
+    color: black;
+    margin-bottom: 0;
+}
+
+.main-title {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
 .title {
     text-align: center;
-    color: rgb(186, 31, 35);
+    color: black;
     padding: 1%;
     font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.container-title {
+    padding: 2%;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 2%;
 }
 
 .container {
     margin-top: 2%;
     text-align: center;
-    background-color: rgb(186, 31, 35);
-    color: #fff;
+    background-color: #fff;
+    color: black;
     padding: 2%;
     border-radius: 8px;
     width: 45%;
 }
 
-.match-info {
-    margin-bottom: 5%;
-}
-
 .divider {
     padding: 2%;
+}
+
+.team-info {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 50%;
 }
 
 .team-logo {
@@ -31,4 +78,38 @@
 .vs {
     margin-top: auto;
     margin-bottom: auto;
+    text-align: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: auto;
+  width: 100px;
+  outline: black;
+  background-image: none;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 30px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 30px;
+  color: black;
+}
+
+.container-sponsor {
+    padding: 2%;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 2%;
 }

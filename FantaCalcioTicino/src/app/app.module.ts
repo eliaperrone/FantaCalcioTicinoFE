@@ -12,6 +12,7 @@ import { LiveComponent } from './page/live/live.component';
 import { ClassificaComponent } from './page/classifica/classifica.component';
 import { RegolamentoComponent } from './page/regolamento/regolamento.component';
 import { AccountComponent } from './page/account/account.component';
+import { GestioneComponent } from './page/gestione/gestione.component';
 
 import { HttpClientModule } from "@angular/common/http";
 
@@ -26,7 +27,8 @@ import { HttpClientModule } from "@angular/common/http";
     LiveComponent,
     ClassificaComponent,
     RegolamentoComponent,
-    AccountComponent
+    AccountComponent,
+    GestioneComponent,
     ],
   imports: [
     BrowserModule,
